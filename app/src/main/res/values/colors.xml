@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#ffc81f</color>
+    <color name="light_yellow">#ffe48f</color>
+    <color name="light_gray">#80dddddd</color>
+    <color name="gray">#dddddd</color>
+    <color name="barrage_text">#f8f8f8</color>
+    <color name="barrage_bg">#aa8e8e8e</color>
+    <color name="comment_text">#525252</color>
+    <color name="pie_select_yellow">#fdc91e</color>
+    <color name="pie_no_select_yellow">#fce9a4</color>
+    <color name="pie_select_gray">#ccccce</color>
+    <color name="pie_no_select_gray">#ececec</color>
+    <color name="gray_search">#f2f2f2</color>
+    <color name="blue1">#5488f9</color>
+    <color name="incorrect">#ff5555</color>
+    <color name="correct">#fddd56</color>
+
+</resources>

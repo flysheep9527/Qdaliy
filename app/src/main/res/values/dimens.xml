@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_margin">4dp</dimen>
+    <dimen name="banner_title_margin">16dp</dimen>
+    <dimen name="avatar_size">16dp</dimen>
+    <dimen name="radio_btn_radius">18dp</dimen>
+    <dimen name="text_margin">12dp</dimen>
+    <dimen name="info_padding">8dp</dimen>
+    <dimen name="barrage_item_height">32dp</dimen>
+    <dimen name="half_barage_item_height">16dp</dimen>
+    <dimen name="barrage_user_face">24dp</dimen>
+    <dimen name="bottom_margin">24dp</dimen>
+    <dimen name="side_menu_item_margin">12dp</dimen>
+</resources>

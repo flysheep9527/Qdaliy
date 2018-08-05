@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/barrage_item_height"
+    android:background="@drawable/bg_barrage_item"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/half_barage_item_height"
+    android:paddingStart="@dimen/half_barage_item_height">
+
+    <ImageView
+        android:id="@+id/user_face"
+        android:layout_width="@dimen/barrage_user_face"
+        android:layout_height="@dimen/barrage_user_face"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_barrage_user_face"
+        android:contentDescription="@string/user_face"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/barrage_text"/>
+</LinearLayout>

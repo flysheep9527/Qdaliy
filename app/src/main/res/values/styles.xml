@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- article box 中的标题样式 -->
+    <style name="title" >
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#2d2d2d</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:layout_marginTop">@dimen/text_margin</item>
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+    </style>
+
+    <style name="description">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#575757</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginStart">@dimen/text_margin</item>
+        <item name="android:layout_marginEnd">@dimen/text_margin</item>
+    </style>
+
+    <!-- article box 底部的信息, 包括分类, 点赞等 -->
+    <style name="article_info_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginStart">4dp</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!-- 有无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景透明 -->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+        <item name="android:background">#f3f3f3</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--无标题 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

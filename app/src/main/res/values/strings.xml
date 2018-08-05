@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Qdaliy</string>
+    <string name="user_face">user_face</string>
+    <string name="barrage_bg">barrage_bg</string>
+    <string name="background">background</string>
+    <string name="image">image</string>
+    <string name="vote">投票</string>
+    <string name="next">下一步</string>
+    <string name="tot_result_real">实际的你</string>
+    <string name="tot_result_expect">你以为的你</string>
+    <string name="search">搜索</string>
+    <string name="column_center">栏目中心</string>
+    <string name="news_category">新闻分类</string>
+    <string name="search_cancel">取消</string>
+    <string name="recent_record">最近搜索</string>
+    <string name="no_more">没有更多啦</string>
+    <string name="loading">加载中…</string>
+    <string name="loading_error">加载失败</string>
+    <string name="try_again">点击重试</string>
+</resources>
